@@ -17,7 +17,7 @@ travis-ci = { repository = "imp/chrono-humanize-rs" }
 maintenance = { status = "experimental" }
 
 [dependencies]
-chrono = "0.4"
+chrono = {path = "../chrono"}
 
 [features]
 pedantic = []
